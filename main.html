@@ -4,20 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Shopping Cart Layout</title>
-  <!-- Bootstrap CSS -->
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
   <style>
     body {
-      background-color: #f6f6f6; /* Setting the background color */
+      background-color: #f6f6f6; 
     }
-	  .block-heading{
-               color: #3b99e0;		  
-	  }
+    .block-heading {
+      color: #3b99e0;		  
+    }
     .product-section {
-      background-color: white; /* Background color for products */
+      background-color: white; 
     }
     .summary-section {
-      background-color: #f7fbff; /* Background color for summary */
+      background-color: #f7fbff; 
     }
   </style>
 </head>
@@ -26,74 +25,74 @@
   <div class="container mt-5">
     <div class="row justify-content-center"> 
       <div class="col-lg-10">
-            <div class="text-center text-primary mb-4 block-heading">
-              <h1>Shopping Cart</h1>
-            </div>
+        <div class="text-center text-primary mb-4 block-heading">
+          <h1>Shopping Cart</h1>
+        </div>
 		  
-            <div class="d-flex mg-2"> 
-              <div class="col-lg-8 p-0 product-section">
-				  
-                <div class="product p-3">
-                  <div class="row">
-                    <div class="col-lg-4">
-                      <img src="product1.jpg" alt="Product 1" class="img-fluid">
-                    </div>
-                    <div class="col-lg-4">
-                      <h5 class="block-heading mb-3">Product 1</h5>
-                     <p class="mb-1">Display: 5 inches</p>
-                      <p class="mb-1">RAM: 4GB</p>
-                      <p class="m-1">Memory: 32GB</p>
-                    </div>
-					  <div class="col-lg-4"> 
-                    <p class="mb-1">$250</p>
-                    </div>
-                  </div>
-                </div>
+        <div class="d-flex mg-2"> 
+          <div class="col-lg-8 p-0 product-section">
 
-                <div class="product p-3">
-                  <div class="row">
-                    <div class="col-lg-4">
-                      <img src="product2.jpg" alt="Product 2" class="img-fluid">
-                    </div>
-                    <div class="col-lg-4">
-                      <h5 class="block-heading mb-3">Product 2</h5>
-                       <p class="mb-1">Display: 5 inches</p>
-                      <p class="mb-1">RAM: 4GB</p>
-                      <p class="mb-1">Memory: 32GB</p>
-					</div>
-					  <div class="col-lg-4"> 
-                    <p class="mb-1">$250</p>
-                    </div>
-                  </div>
+			  <div class="product p-3">
+              <div class="row">
+                <div class="col-lg-4">
+                  <img src="product1.jpg" alt="Product 1" class="img-fluid">
                 </div>
-
-                <div class="product p-3">
-                  <div class="row">
-                    <div class="col-lg-4">
-                      <img src="product3.jpg" alt="Product 3" class="img-fluid">
-                    </div>
-                    <div class="col-lg-4">
-                      <h5 class="block-heading mb-3">Product 3</h5>
-                      <p class="mb-1">Display: 5 inches</p>
-                      <p class="mb-1">RAM: 4GB</p>
-                      <p class="mb-1">Memory: 32GB</p>
-                     </div>
-					   <div class="col-lg-4"> 
-                      <p class="mb-1">$250</p>
-                    </div>
-                  </div>
+                <div class="col-lg-4">
+                  <h5 class="block-heading mb-3">Product 1</h5>
+                  <p class="mb-1">Display: 5 inches</p>
+                  <p class="mb-1">RAM: 4GB</p>
+                  <p class="m-1">Memory: 32GB</p>
                 </div>
-              </div>
-
-              <div class="col-lg-4 d-flex flex-column summary-section p-3">
-                <h5 class="text-primary text-center p-2">Summary</h5>
-                <p class="border-bottom pb-2">Subtotal: $360</p>
-                <p class="border-bottom pb-2">Discount: $0</p>
-                <p class="border-bottom pb-2">Shipping: $0</p>
-                <h6 class="pt-3">Total: $360</h6>
-                <button class="btn btn-primary btn-block mt-3">checkout</button>
+                <div class="col-lg-4"> 
+                  <p class="mb-1">$250</p>
+                </div>
               </div>
             </div>
+
+            <div class="product p-3">
+              <div class="row">
+                <div class="col-lg-4">
+                  <img src="product2.jpg" alt="Product 2" class="img-fluid">
+                </div>
+                <div class="col-lg-4">
+                  <h5 class="block-heading mb-3">Product 2</h5>
+                  <p class="mb-1">Display: 5 inches</p>
+                  <p class="mb-1">RAM: 4GB</p>
+                  <p class="mb-1">Memory: 32GB</p>
+                </div>
+                <div class="col-lg-4"> 
+                  <p class="mb-1">$250</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="product p-3">
+              <div class="row">
+                <div class="col-lg-4">
+                  <img src="product3.jpg" alt="Product 3" class="img-fluid">
+                </div>
+                <div class="col-lg-4">
+                  <h5 class="block-heading mb-3">Product 3</h5>
+                  <p class="mb-1">Display: 5 inches</p>
+                  <p class="mb-1">RAM: 4GB</p>
+                  <p class="mb-1">Memory: 32GB</p>
+                </div>
+                <div class="col-lg-4"> 
+                  <p class="mb-1">$250</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 d-flex flex-column summary-section p-3">
+            <h5 class="text-primary text-center p-2">Summary</h5>
+            <p class="border-bottom pb-2">Subtotal: $360</p>
+            <p class="border-bottom pb-2">Discount: $0</p>
+            <p class="border-bottom pb-2">Shipping: $0</p>
+            <h6 class="pt-3">Total: $360</h6>
+            <button class="btn btn-primary btn-block mt-3">Checkout</button>
+          </div>
+        </div>
       </div>
     </div>
   </div>
